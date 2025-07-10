@@ -26,6 +26,6 @@ public class RejectReturnServlet extends HttpServlet {
             request.getSession().setAttribute("errorMessage", "Error processing rejection.");
         }
 
-        response.sendRedirect("admin-dashboard.jsp");
+        response.sendRedirect("AdminDashboardServlet");
     }
 }
