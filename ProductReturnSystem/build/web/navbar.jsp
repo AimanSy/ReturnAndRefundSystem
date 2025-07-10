@@ -76,7 +76,7 @@
 </style>
 
 <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="dashboard.jsp">
+    <a class="navbar-brand" href="DashboardServlet">
         <i class="fas fa-exchange-alt"></i> Product Return System
     </a>
     <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -86,7 +86,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="dashboard.jsp">
+                <a class="nav-link" href="DashboardServlet">
                     <i class="fas fa-tachometer-alt"></i> Dashboard
                 </a>
             </li>

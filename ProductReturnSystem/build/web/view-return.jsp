@@ -314,7 +314,7 @@
                 <i class="fas fa-box-open"></i>
                 <h4>No Return Requests</h4>
                 <p>You haven't submitted any return requests yet.</p>
-                <a href="${pageContext.request.contextPath}/return-request.jsp" class="action-btn" style="background-color: var(--primary); color: white; margin-top: 1rem;">
+                <a href="${pageContext.request.contextPath}/ReturnRequestServlet" class="action-btn" style="background-color: var(--primary); color: white; margin-top: 1rem;">
                     <i class="fas fa-undo"></i> Request a Return
                 </a>
             </div>

@@ -74,7 +74,7 @@
         }
 
         .card-header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
             color: white;
             padding: 1.75rem 2rem;
             text-align: center;
@@ -231,7 +231,7 @@
             <div class="card-body">
                 <% if (request.getAttribute("error") != null) { %>
                     <div class="alert alert-danger">
-                        <i class="fas fa-exclamation-circle"></i> ${error}
+                        <i class="fas fa-exclamation-circle"></i> <%= request.getAttribute("error") %>
                     </div>
                 <% } %>
                 
@@ -261,7 +261,7 @@
                     
                     <div class="form-group password-container">
                         <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirmPassword" 
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
                                placeholder="Re-enter your password" required>
                         <i class="fas fa-eye toggle-password" id="toggleConfirmPassword"></i>
                         <div id="passwordMatch" class="password-hint"></div>
